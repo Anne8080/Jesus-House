@@ -1,0 +1,28 @@
+.expsingle{
+    width: 100%;
+    border: 2px solid gold;
+    margin: 1%;
+
+    .top{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        img{
+            height: 100%;
+            width: fit-content;
+            border: 2px solid gold;
+            border-top: 0;
+        }
+    }
+
+    .bottom{
+        padding: 3%;
+        h4{
+            color: #241571;
+        }
+
+        h5{
+            color: #ba110c;
+        }
+    }
+}

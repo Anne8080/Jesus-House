@@ -1,0 +1,34 @@
+.ls{
+    width: 100%;
+    border: 2px solid gold;
+    margin: 1%;
+    .left{
+        width: 35%;
+        display: flex;
+        align-items: center;
+        
+        
+        img{
+            width: 100%;
+            justify-self: center;
+            height: 190px;
+            border-right: 2px solid gold;
+            border-left: 2px solid gold;
+        }
+    }
+    .right{
+        width: 65%;
+        padding: 0 2%;
+
+        
+    }
+}
+.a{
+    padding: 1% 3%;
+    background-color: #241571;
+    color: white;
+}
+.a:hover{
+    background-color: #ba110c;
+    color: white;
+}

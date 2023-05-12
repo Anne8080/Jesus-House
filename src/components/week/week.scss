@@ -1,0 +1,26 @@
+.week{
+    text-align: center;
+    padding: 2% 10%;
+    background: linear-gradient(rgba(255, 217, 0, 0.185), rgba(255, 217, 0, 0.185)), url('../../pics/quote.png');
+    background-repeat: no-repeat;
+    background-position: 2% 10%;
+    .left{
+        text-align: left;
+        width: 50%;
+        
+        #big{
+            font-size: 2.5rem;
+        }
+        p{
+            text-align: right;
+            font-weight: 600;
+        }
+    }
+    .right{
+        width: 50%;
+        img{
+            width: 150px;
+            justify-self: center;
+        }
+    }
+}

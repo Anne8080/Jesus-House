@@ -1,0 +1,78 @@
+// .intro{
+//     img{
+//         width: 100vw;
+//         height: 100vh;
+//     }
+// }
+.daily{
+    background: linear-gradient(117.83deg, rgba(48, 48, 48, 0.192) -0.77%, rgba(36, 36, 36, 0.192) 106.52%), url('../../pics/bible.jpg') fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 7% 10%;
+    color: whitesmoke;
+    h1{
+        font-size: 3rem;
+        margin-bottom: 5%;
+    }
+}
+.sow{
+    background: linear-gradient(117.83deg, rgba(112, 111, 111, 0.192) -0.77%, rgba(36, 36, 36, 0.192) 106.52%), url('../../pics/tao.jpeg') fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .sides{
+        padding: 5%;
+        width: 50%;
+        color: whitesmoke;
+    }
+    
+}
+.sowdiv{
+    text-align: center;
+    // margin-bottom: 0;
+    margin-top: 15%;
+}
+.connect{
+    background: linear-gradient(117.83deg, rgba(112, 111, 111, 0.192) -0.77%, rgba(36, 36, 36, 0.192) 106.52%), url('../../pics/DSC_0813.JPG') fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5% 10%;
+    color: white;
+    h1{
+        font-size: 3rem;
+    }
+    .cleft{
+        width: 50%;
+        margin: 5% 0;
+    }
+    .left{
+        margin: 5% 0;
+        .icon{
+            font-size: 3rem;
+            margin-right: 10%;
+            cursor: pointer;
+        }
+        .icon:hover{
+            color: #ba110c ;
+        }
+    }
+    .right{
+        text-align: center;
+        h1{
+            font-size: 5rem;
+            
+        }
+    }
+    h2{
+        margin: 5% 0;
+    }
+    .pdf{
+        justify-content: start;
+        padding-right: 15%;
+    }
+}
+.testdiv .slide{
+    height: 85vh;
+}
