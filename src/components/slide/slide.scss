@@ -11,18 +11,21 @@
     background-size: cover;
     padding: 7% 10%;
     color: whitesmoke;
+    .left{
+        width: 100%; 
+    }
     h1{
         font-size: 3rem;
         margin-bottom: 5%;
     }
 }
 .sow{
-    background: linear-gradient(117.83deg, rgba(112, 111, 111, 0.192) -0.77%, rgba(36, 36, 36, 0.192) 106.52%), url('../../pics/tao.jpeg') fixed;
+    background: linear-gradient(117.83deg, rgba(48, 48, 48, 0.39) -0.77%, rgba(48, 48, 48, 0.392) 106.52%), url('../../pics/tao.jpeg') fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     .sides{
-        padding: 5%;
+        padding: 0 5% 5%;
         width: 50%;
         color: whitesmoke;
     }
@@ -47,7 +50,7 @@
         width: 50%;
         margin: 5% 0;
     }
-    .left{
+    .iconleft{
         margin: 5% 0;
         .icon{
             font-size: 3rem;
@@ -60,9 +63,11 @@
     }
     .right{
         text-align: center;
-        h1{
+        #jesus{
             font-size: 5rem;
-            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     }
     h2{
@@ -74,5 +79,93 @@
     }
 }
 .testdiv .slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 85vh;
+}
+
+@media only screen and ( max-width: 1000px ){
+    .testdiv .slide{
+        height: 50vh;
+    }
+}
+@media only screen and ( max-width: 450px ){
+    .testdiv .slide{
+        height: 50vh;
+
+        .df{
+            flex-direction: column;
+            justify-content: center;
+            .left, .right, .cleft, .sides{
+                width: 100%;
+                p.df.pdf{
+                    flex-direction: row;
+                }
+                img{
+                    margin: auto;
+                }
+                
+            }
+        }
+        h1{
+            font-size: 2.5rem;
+        }
+        #hard{
+            font-size: 2em;
+        }
+        #jesus{
+            font-size: 3rem;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
+@media only screen and ( max-width: 600px ){
+    .testdiv .slide{
+        height: 50vh;
+
+        .df{
+            flex-direction: column;
+            justify-content: center;
+            .left, .right, .cleft, .sides{
+                width: 100%;
+                height: 150px;
+                p.df.pdf{
+                    flex-direction: row;
+                }
+                img{
+                    margin: auto;
+                }
+                
+            }
+        }
+        .sowdiv{
+            margin-top: 5%;
+        }
+        h1{
+            font-size: 2.5rem;
+        }
+        #hard{
+            font-size: 2em;
+        }
+        #jesus{
+            font-size: 3rem;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
+@media only screen and ( max-width: 300px ){
+    .testdiv .slide{
+        height: 70vh;
+    }
+    .daily{
+        padding: 7% 2%;
+    }
+    .sides{
+        h2{
+            font-size: 1.3rem;
+        }
+    }
 }

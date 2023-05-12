@@ -39,8 +39,8 @@ function SampleNextArrow(props) {
     speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5000,
+    // autoplay: true,
+    // autoplaySpeed: 5000,
     pauseOnHover: true,
     nextArrow: <SampleNextArrow />, 
     prevArrow: <SamplePrevArrow />,
@@ -76,6 +76,7 @@ const Slide = () => {
   return (
     <div style={{marginBottom: '30px'}}>
         <Slider {...settings} className="testdiv">
+        <div>
         <div className='latest know slide'>
           <div className="bottom df">
             <div className="left"><img src={rccg} alt="" /></div>
@@ -86,32 +87,40 @@ const Slide = () => {
             </div>
           </div>
         </div>
+        </div>
+        <div>
         <div className="daily slide">
           <div className="left">
             <h1><span className="gold">Learn</span> a bit of the <span className="gold">Word</span> <br />Everyday <br />with the <br /> <span className="gold">OPEN HEAVENS</span><br />DAILY DEVOTIONAL</h1>
             <a href="#devotion" className="a">Today's Word</a>
           </div>
         </div>
-        <div className="sow slide">
-          <div className="df">
-            <div className="sides">
-              <h2>"Give and it shall be given unto you; good measure, pressed down and shaken together, and running over, shall men give unto your bosom."</h2>
-              <h4>— Luke 6:38a</h4>
+        </div>
+        <div >
+          <div className="sow slide">
+            <div>
+            <div className="df">
+              <div className="sides">
+                <h2>"Give and it shall be given unto you; good measure, pressed down and shaken together, and running over, shall men give unto your bosom."</h2>
+                <h4>— Luke 6:38a</h4>
+              </div>
+              <div className="sides">
+                <h2>“You must without fail give a tenth of everything your seed produces in the field year by year.”</h2>
+                <h4>— Deuteronomy 14:22</h4>
+              </div>
             </div>
-            <div className="sides">
-              <h2>“You must without fail give a tenth of everything your seed produces in the field year by year.”</h2>
-              <h4>— Deuteronomy 14:22</h4>
+            <div className="sowdiv">
+              <a href="" className="a">Sow</a>
             </div>
-          </div>
-          <div className="sowdiv">
-            <a href="" className="a">Sow</a>
+            </div>
           </div>
         </div>
+        <div>
         <div className="slide connect">
           <div className="df">
           <div className="cleft">
               <h1 className="gold">Connect With Us</h1>
-              <div className="left">
+              <div className="iconleft">
                 <FontAwesomeIcon icon={faFacebook} className='icon' />
                 <FontAwesomeIcon icon={faYoutube} className='icon' />
                 <FontAwesomeIcon icon={faLinkedin} className='icon' />
@@ -120,9 +129,10 @@ const Slide = () => {
               <p className='df pdf'><PinDropRoundedIcon/> NOS. 5/7 REDEMPTION WAY, OFF OLADIPO DIYA ROAD, BEHIND NNPC FILLING STATION, DURUMI DISTRICT, ABUJA</p>
             </div>
             <div className="right">
-              <h1><span className="gold">Jesus <br /></span> is <br /> <span className="gold">Lord</span></h1>
+              <h1 id='jesus'><span className="gold">Jesus </span>is <span className="gold">Lord</span></h1>
             </div>
           </div>
+        </div>
         </div>
         </Slider>
     </div>

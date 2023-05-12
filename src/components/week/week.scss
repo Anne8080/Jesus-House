@@ -24,3 +24,15 @@
         }
     }
 }
+
+@media only screen and ( max-width: 450px ){
+    .week{
+        .df{
+            flex-direction: column-reverse;
+
+            .left, .right{
+                width: 100%;
+            }
+        }
+    }
+}

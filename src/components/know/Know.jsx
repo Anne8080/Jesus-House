@@ -4,7 +4,8 @@ import rccg from '../../pics/rccg-logo.png'
 
 const Know = () => {
   return (
-    <div className='latest know'>
+    <div className="df knowdf">
+      <div className='latest know'>
         <div className="lattitle">
             <h1 >Know <span className='gold'>Us</span></h1>
         </div>
@@ -17,6 +18,7 @@ const Know = () => {
             </div>
         </div>
         <br /><br /><br />
+      </div>
     </div>
   )
 }
