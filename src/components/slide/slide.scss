@@ -56,6 +56,7 @@
             font-size: 3rem;
             margin-right: 10%;
             cursor: pointer;
+            color: white;
         }
         .icon:hover{
             color: #ba110c ;
@@ -130,7 +131,6 @@
             justify-content: center;
             .left, .right, .cleft, .sides{
                 width: 100%;
-                height: 150px;
                 p.df.pdf{
                     flex-direction: row;
                 }
@@ -144,21 +144,24 @@
             margin-top: 5%;
         }
         h1{
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         #hard{
-            font-size: 2em;
+            font-size: 1.6rem;
         }
         #jesus{
             font-size: 3rem;
             flex-direction: row;
             justify-content: space-between;
+            
         }
+        
     }
 }
 @media only screen and ( max-width: 300px ){
     .testdiv .slide{
         height: 70vh;
+        
     }
     .daily{
         padding: 7% 2%;

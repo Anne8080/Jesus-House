@@ -1,6 +1,6 @@
 import React from 'react'
 import './latestsingle.scss'
-
+ 
 const Latestsingle = ({evt, evtitle, date, rccg}) => {
   return (
     <div className='ls df'>

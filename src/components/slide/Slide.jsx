@@ -7,7 +7,7 @@ import rccg from '../../pics/rccg-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import PinDropRoundedIcon from '@mui/icons-material/PinDropRounded';
 
 function SampleNextArrow(props) {
@@ -39,8 +39,8 @@ function SampleNextArrow(props) {
     speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 5000,
+    autoplay: true,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     nextArrow: <SampleNextArrow />, 
     prevArrow: <SamplePrevArrow />,
@@ -121,14 +121,14 @@ const Slide = () => {
           <div className="cleft">
               <h1 className="gold">Connect With Us</h1>
               <div className="iconleft">
-                <FontAwesomeIcon icon={faFacebook} className='icon' />
-                <FontAwesomeIcon icon={faYoutube} className='icon' />
-                <FontAwesomeIcon icon={faLinkedin} className='icon' />
+                <a href="https://www.facebook.com/JesusHouseAbuja"><FontAwesomeIcon icon={faFacebook} className='icon' /></a>
+                <a href="https://youtube.com/@rccgjesushouseabuja"><FontAwesomeIcon icon={faYoutube} className='icon' /></a>
+                <a href="https://instagram.com/rccg_jha?igshid=NTc4MTIwNjQ2YQ=="><FontAwesomeIcon icon={faInstagram} className='icon' /></a>
               </div>
               <h2>https://jesus-house.netlify.com</h2>
               <p className='df pdf'><PinDropRoundedIcon/> NOS. 5/7 REDEMPTION WAY, OFF OLADIPO DIYA ROAD, BEHIND NNPC FILLING STATION, DURUMI DISTRICT, ABUJA</p>
             </div>
-            <div className="right">
+            <div className="right" id='jright'>
               <h1 id='jesus'><span className="gold">Jesus </span>is <span className="gold">Lord</span></h1>
             </div>
           </div>

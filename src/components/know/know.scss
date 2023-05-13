@@ -35,7 +35,7 @@
     padding: 10% 0;
 }
 @media only screen and ( max-width: 600px ){
-    .knowdf{
+    .know, .knowdf{
 
         .bottom{
             flex-direction: column;
@@ -43,16 +43,23 @@
             .left, .right{
                 width: 100%;
                 height: 150px;
+                    .jh{
+                        font-size: 2rem;
+                    }
                 img{
                     margin: auto;
                 }
+            }
+            .left{
+                text-align: center;
             }
         }
         #hard{
             font-size: 2em;
         }
-        h1{
-            font-size: 2.5rem;
-        }
+        
+    }
+    .knowdf{
+        padding-bottom: 5%;
     }
 }

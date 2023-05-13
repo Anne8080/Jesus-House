@@ -6,35 +6,54 @@
     margin: 5% 10%;
 }
 .sowsow{
-    background: linear-gradient(117.83deg, rgba(112, 111, 111, 0.192) -0.77%, rgba(36, 36, 36, 0.192) 106.52%), url('../../pics/tao.jpeg') fixed;
+    background: linear-gradient(117.83deg, rgba(112, 111, 111, 0.192) -0.77%, rgba(36, 36, 36, 0.192) 106.52%), url('../../pics/offeringacc.jpg') fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
 }
 
 .dailysow{
-    background: linear-gradient(117.83deg, rgba(48, 48, 48, 0.192) -0.77%, rgba(36, 36, 36, 0.192) 106.52%), url('../../pics/bible.jpg') fixed;
+    background: linear-gradient(117.83deg, rgba(48, 48, 48, 0.192) -0.77%, rgba(36, 36, 36, 0.192) 106.52%), url('../../pics/tao.jpeg') fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
 }
 
 @media only screen and ( max-width: 600px ){
-    .sowslide{
+    .slick-slider.sowslide.slick-initialized{
+        width: 100%;
+        margin: 5% 0;
+        
+    }
+    .sowsow, .dailysow{
+        height: 25vh;
         width: 100vw;
-        margin: 5% 1%;
     }
 }
 @media only screen and ( max-width: 1000px ){
     .sowslide{
-        width: 80vw;
-        margin: 5% 1%;
+        width: 100%;
+        margin: 5% 0;
+    }
+    .sowsow, .dailysow{
+        height: 37vh;
     }
 }
 @media only screen and ( max-width: 450px ){
     #give{
         width: 100%;
+    }
+    .sowsow, .dailysow{
+        height: 25vh;
+    }
+}
+@media only screen and ( max-width: 450px ){
+    #give{
+        width: 100%;
+    }
+    .sowsow, .dailysow{
+        height: 23vh;
     }
 }

@@ -32,3 +32,15 @@
     background-color: #ba110c;
     color: white;
 }
+@media only screen and ( max-width: 450px ){
+    .ls{
+        flex-direction: column;
+        .left{
+            width: fit-content;
+        }
+        .right{
+            width: 100%;
+            padding: 5%;
+        }
+    }
+}

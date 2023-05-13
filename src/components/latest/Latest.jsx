@@ -4,6 +4,7 @@ import Latestsingle from '../lestestsingle/Latestsingle'
 import clean from '../../pics/clean.jpg'
 import dig from '../../pics/digging.jpg'
 import ppp from '../../pics/ppp.jpg'
+import worker from '../../pics/workers.jpg'
 
 const Latest = () => {
   return (
@@ -18,7 +19,7 @@ const Latest = () => {
                 <Latestsingle evt='Prayer, Praise and Penticost' evtitle='Faith Clinic' date='11th May 2023' rccg={ppp} />
             </div>
             <div className=" df">
-                <Latestsingle evt="Worker's Meeting" evtitle='Discussion' date='10th May 2023' />
+                <Latestsingle evt="Worker's Meeting" evtitle='Discussion' date='10th May 2023' rccg={worker} />
                 <Latestsingle evt='Digging Deep Service' evtitle='Book of Romans' date='9th May 2023' rccg={dig} />
             </div>
         </div>
